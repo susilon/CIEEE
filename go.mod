@@ -1,4 +1,4 @@
-module websocketserver
+module cieee
 
 go 1.13
 
