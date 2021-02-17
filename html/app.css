@@ -1,0 +1,90 @@
+html {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.app-header {
+    height: 51px;
+}        
+
+.sapp {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.sapp-header {
+    -ms-flex: 0 0 55px;
+    flex: 0 0 55px;
+}
+
+.app-body {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    overflow-x: hidden;
+}
+
+.app-body .main {
+    -ms-flex: 1;
+    flex: 1;
+    min-width: 0;            
+}
+
+.app-body .sidebar {
+    -ms-flex: 0 0 250px;
+    flex: 0 0 250px;
+    -ms-flex-order: -1;
+    order: -1;            
+}
+
+.member-area {
+    background-color: #cccccc;
+    padding: 10px;
+}
+.chat-area {
+    background-color: #ffffff;
+    padding: 10px;
+    overflow-y: scroll;
+}
+.chat-formx {
+    position:absolute; 
+    bottom:0;        
+}
+.list-member li {
+    color: #575757;
+    padding: 9 12 9 12;
+}
+.friends-balloon {
+    text-align: left; 
+    font-weight: normal;
+    float: left;
+    min-width: 100px;
+}
+.my-balloon {
+    text-align: right; 
+    font-weight: normal;
+    float: right;
+    min-width: 100px;
+}
+.server-balloon {
+    text-align: center; 
+    font-weight: normal;            
+    min-width: 100px;
+}
+.friends-name {
+    font-size: 11px;
+}
+.message {
+    font-size: 15px;
+}
+.list-group-item {
+    cursor: pointer;
+}
