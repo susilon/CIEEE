@@ -11,6 +11,12 @@ or using another computer.
 
 You can see console log at the browser for activity<br />
 
+Dockerfile available<br />
+build image : docker build -t cieee-server .<br />
+run container : docker run -d -p 8380:8380 --name cieee-server cieee-server<br />
+
+[Live Demo](https://cieee.azure.susilon.com)
+
 Requirements :<br />
 Golang
 
